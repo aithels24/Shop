@@ -33,3 +33,26 @@ if item5 not in inventory:
 print(len(inventory))
 print("""
 Items in your bag""")
+
+
+print(""" a) remove an item  b) cost""")
+
+ans1 = input(">>")
+
+if ans1 in ans_a: 
+    print(inventory)
+
+    inv = input("Disposing of an item")
+    inventory.remove(inv)
+
+    print(inventory)
+    
+    cost = item1 + item2 + item3 + item4 + item5
+        
+    print(cost)
+
+if ans1 in ans_b:
+    cost = item1 + item2 + item3 + item4 + item5
+        
+    print(cost)
+
