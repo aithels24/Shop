@@ -1,1 +1,10 @@
-# Shop
+# Price
+apple = float(1)
+orange = float(1)
+watermelon = float(4)
+eggs = float(8)
+cookies = float(6)
+water = float(3)
+milk = float(6)
+chicken = float(8)
+bacon = float(6)
