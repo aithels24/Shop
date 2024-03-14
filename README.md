@@ -8,3 +8,28 @@ water = float(3)
 milk = float(6)
 chicken = float(8)
 bacon = float(6)
+inventory = []
+
+item1 = input("What should I buy >>")
+if item1 not in inventory:
+    inventory.append(item1)
+
+item2 = input("What else")
+if item2 not in inventory:
+    inventory.append(item2)
+
+item3 = input("What else")
+if item3 not in inventory:
+    inventory.append(item3)
+    
+item4 = input("What else")
+if item4 not in inventory:
+    inventory.append(item4)
+
+item5 = input("lastly")
+if item5 not in inventory:
+    inventory.append(item5)
+    
+print(len(inventory))
+print("""
+Items in your bag""")
